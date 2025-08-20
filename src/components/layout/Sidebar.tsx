@@ -129,22 +129,19 @@ export function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
             <nav className="grid gap-1">
               <NavItem icon={LayoutDashboard} label="Dashboard" href="/" isCollapsed={isCollapsed} />
               {/* <NavItem icon={Users} label="Contacts" href="/contacts" isCollapsed={isCollapsed} /> */}
-              <NavItem icon={MessageSquare} label="Messages" href="/messages" isCollapsed={isCollapsed} />
-              <NavItem icon={Calendar} label="Calendar" href="/calendar" isCollapsed={isCollapsed} />
+              {/* <NavItem icon={MessageSquare} label="Messages" href="/messages" isCollapsed={isCollapsed} /> */}
+              {/* <NavItem icon={Calendar} label="Calendar" href="/calendar" isCollapsed={isCollapsed} /> */}
             </nav>
 
-          
+            {/* <Separator className="my-4" /> */}
 
-            <Separator className="my-4" />
-
-            {/* CRM Section */}
-            {!isCollapsed && (
+            {/* {!isCollapsed && (
               <div className="px-3 py-2">
                 <h4 className="text-xs font-semibold text-sidebar-foreground/70 uppercase tracking-wider">CRM</h4>
               </div>
-            )}
+            )} */}
 
-            <nav className="grid gap-1">
+            {/* <nav className="grid gap-1">
               <NavItem icon={BarChart3} label="Analytics" href="/analytics" isCollapsed={isCollapsed} />
               <NavItem icon={TrendingUp} label="Deals" href="/deals" isCollapsed={isCollapsed} />
               <NavItem icon={FileText} label="Deal Details" href="/deal-details" isCollapsed={isCollapsed} />
@@ -153,34 +150,32 @@ export function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
               <NavItem icon={BarChart3} label="Reports" href="/reports" isCollapsed={isCollapsed} />
               <NavItem icon={FileText} label="Report Details" href="/report-details" isCollapsed={isCollapsed} />
               <NavItem icon={UserPlus} label="Add Contact" href="/add-contact" isCollapsed={isCollapsed} />
-            </nav>
+            </nav> */}
 
-            <Separator className="my-4" />
+            {/* <Separator className="my-4" /> */}
 
-            {/* Authentication Section */}
-            {!isCollapsed && (
+            {/* {!isCollapsed && (
               <div className="px-3 py-2">
                 <h4 className="text-xs font-semibold text-sidebar-foreground/70 uppercase tracking-wider">Authentication</h4>
               </div>
-            )}
+            )} */}
 
-            <nav className="grid gap-1">
+            {/* <nav className="grid gap-1">
               <NavItem icon={Lock} label="Sign In" href="/auth/signin" isCollapsed={isCollapsed} />
               <NavItem icon={UserCheck} label="Sign Up" href="/auth/signup" isCollapsed={isCollapsed} />
               <NavItem icon={KeyRound} label="Forgot Password" href="/auth/forgot-password" isCollapsed={isCollapsed} />
               <NavItem icon={RotateCcw} label="Reset Password" href="/auth/reset-password" isCollapsed={isCollapsed} />
-            </nav>
+            </nav> */}
 
-            <Separator className="my-4" />
+            {/* <Separator className="my-4" /> */}
 
-            {/* Components Section */}
-            {!isCollapsed && (
+            {/* {!isCollapsed && (
               <div className="px-3 py-2">
                 <h4 className="text-xs font-semibold text-sidebar-foreground/70 uppercase tracking-wider">Components</h4>
               </div>
-            )}
+            )} */}
 
-            <nav className="grid gap-1">
+            {/* <nav className="grid gap-1">
               <NavItem icon={ChevronDown} label="Accordion" href="/components/accordion" isCollapsed={isCollapsed} />
               <NavItem icon={User} label="Avatar" href="/components/avatar" isCollapsed={isCollapsed} />
               <NavItem icon={AlertTriangle} label="Alerts" href="/components/alerts" isCollapsed={isCollapsed} />
@@ -208,12 +203,11 @@ export function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
               <NavItem icon={HelpCircle} label="Tooltips" href="/components/tooltips" isCollapsed={isCollapsed} />
               <NavItem icon={Type} label="Typed Text" href="/components/typed-text" isCollapsed={isCollapsed} />
               <NavItem icon={MessageCircle} label="Chat Widget" href="/components/chat-widget" isCollapsed={isCollapsed} />
-            </nav>
+            </nav> */}
           </div>
         </div>
 
-        {/* Fixed Footer */}
-        <div className="border-t border-border p-2 flex-shrink-0">
+        {/* <div className="border-t border-border p-2 flex-shrink-0">
           <nav className="grid gap-1">
             <NavItem icon={Settings} label="Settings" href="/settings" isCollapsed={isCollapsed} />
             <NavItem icon={LifeBuoy} label="Support" href="/support" isCollapsed={isCollapsed} />
@@ -225,7 +219,7 @@ export function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
               {!isCollapsed && <span>Logout</span>}
             </Button>
           </nav>
-        </div>
+        </div> */}
       </aside>
     </>
   );
