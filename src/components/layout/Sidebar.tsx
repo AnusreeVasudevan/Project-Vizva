@@ -128,7 +128,7 @@ export function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
           <div className="flex flex-col gap-1">
             <nav className="grid gap-1">
               <NavItem icon={LayoutDashboard} label="Dashboard" href="/" isCollapsed={isCollapsed} />
-              <NavItem icon={Users} label="Contacts" href="/contacts" isCollapsed={isCollapsed} />
+              {/* <NavItem icon={Users} label="Contacts" href="/contacts" isCollapsed={isCollapsed} /> */}
               <NavItem icon={MessageSquare} label="Messages" href="/messages" isCollapsed={isCollapsed} />
               <NavItem icon={Calendar} label="Calendar" href="/calendar" isCollapsed={isCollapsed} />
             </nav>
